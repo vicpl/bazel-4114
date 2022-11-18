@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Bazel run service:service" type="BlazeCommandRunConfigurationType" factoryName="Bazel Command" nameIsGenerated="true">
+    <blaze-settings blaze-command="run" kind="go_binary" handler-id="BlazeGoRunConfigurationHandlerProvider">
+      <blaze-target>//service:service</blaze-target>
+      <blaze-user-exe-flag>--test_path=$WorkspaceRoot$/testfile</blaze-user-exe-flag>
+    </blaze-settings>
+    <method v="2">
+      <option name="Blaze.BeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

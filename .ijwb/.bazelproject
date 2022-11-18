@@ -1,0 +1,7 @@
+directories:
+  .
+targets:
+  //service:service
+additional_languages:
+  go
+derive_targets_from_directories: false
